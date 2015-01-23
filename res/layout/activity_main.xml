@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.scrapbookapp.MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:contentDescription="@string/taj_mahal"
+                android:src="@drawable/tajmahal" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/taj_mahal"
+                android:text="@string/taj_mahal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="300dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/statue_of_liberty"
+                android:src="@drawable/statueofliberty2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/statue_of_liberty"
+                android:text="@string/statue_of_liberty"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="195dp"
+                android:contentDescription="@string/eiffel_tower"
+                android:src="@drawable/eiffeltower3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/eiffel_tower"
+                android:text="@string/eiffel_tower"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="290dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/niagara_falls"
+                android:src="@drawable/niagrafalls" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/niagara_falls"
+                android:text="@string/niagara_falls"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
